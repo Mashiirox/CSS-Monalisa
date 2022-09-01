@@ -18,6 +18,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.PORN_LOGO }}
+          ACCESS_TOKEN: ${{ secrets.MONALISA }}
           BRANCH: gh-pages
           FOLDER: dist
